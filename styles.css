@@ -6,8 +6,8 @@
 .holder
     {
         display:grid;
-        width:600px;
-        height:600px;  
+        width:205px;
+        height:205px;  
         grid-template-columns: repeat(2,1fr); 
         grid-template-rows: repeat(2,1fr);
         gap: 10px;
