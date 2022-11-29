@@ -1,2 +1,25 @@
 
-/* Your CSS Code here. */
+*{
+    margin:40px;
+}
+
+.holder
+    {
+        display:grid;
+        width:600px;
+        height:600px;  
+        grid-template-columns: repeat(2,1fr); 
+        grid-template-rows: repeat(2,1fr);
+        gap: 10px;
+                background-color:black;
+    }
+    
+.box{
+    display:block;
+     height: 200px;
+    width: 200px;
+    background-color: antiquewhite;
+    text-align: center;
+    line-height: 160px;
+    font-size: 30px;
+}
